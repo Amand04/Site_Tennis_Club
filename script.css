@@ -1,0 +1,22 @@
+@media screen { (min-width: 390px )
+  
+}
+
+
+
+.header_image {
+  display: flex;
+  justify-content: stretch;
+  width: 1930px;
+  height: 350px;
+}
+
+.header_logo {
+  display: grid;
+  float: auto;
+  width: 350px;
+  height: 350px;
+}
+
+.headband_navigation {
+}
