@@ -1,20 +1,52 @@
 @media screen and (min-width: 650px) {
   .header_image {
     width: auto;
+    height: auto;
+  }
+
+  .headband_navigation--ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    color: white;
+    background-color: rgb(180, 68, 28);
+    margin: 0;
+  }
+
+  .headband_navigation--ul--li {
+    display: flex;
+    justify-content: stretch;
   }
 }
 
 .headband_background {
-  display: flex
-  width:100vw;
-  color: brown;
+  display: flex;
+  justify-content: center;
 }
 
 .header_image {
   display: flex;
-  height: auto;
+  justify-content: stretch;
+  height: 280px;
   width: 1500px;
 }
 
 .headband_navigation {
+  display: flex;
+  padding: 3px;
+}
+
+.headband_navigation--ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: white;
+  background-color: rgb(180, 68, 28);
+  margin: 0;
+}
+
+.headband_navigation--ul--li {
+  padding: 20px;
+  width: 147px;
+  justify-content: center;
 }
