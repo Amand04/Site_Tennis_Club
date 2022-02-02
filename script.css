@@ -1,21 +1,25 @@
-@media screen { (min-width: 390px )
-  
+@media screen and (min-width: 650px) {
+  .header_image {
+    width: auto;
+  }
 }
 
-
+.headband_background {
+  display: flex;
+  width: 100vw;
+}
 
 .header_image {
-  display: flex;
-  justify-content: stretch;
-  width: 1930px;
-  height: 350px;
+  height: 150px;
+  width: 1200px;
+  height: 250px;
 }
 
 .header_logo {
-  display: grid;
-  float: auto;
-  width: 350px;
-  height: 350px;
+  display: flex;
+  align-self: flex-end;
+  width: 150px;
+  height: 150px;
 }
 
 .headband_navigation {
