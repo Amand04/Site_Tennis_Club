@@ -41,7 +41,6 @@ body {
 .headband_background {
   display: flex;
   justify-content: center;
-
   background-color: black;
 }
 
@@ -149,8 +148,45 @@ nav a:hover {
   text-align: justify;
 }
 
-/*PHOTOS*/
-.article_title--photo {
-  height: 30px;
-  width: 30px;
+/*PHOTOS EQUIPE*/
+.article_title--photo1 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+}
+
+.article_title--photo2 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+}
+
+.article_title--photo3 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+}
+
+.article_title--photo4 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+}
+
+.article_title--photo5 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+}
+
+.article_title--photo6 {
+  width: 150px;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
 }
