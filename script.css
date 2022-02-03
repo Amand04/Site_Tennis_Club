@@ -22,13 +22,14 @@
 .headband_background {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 .header_image {
   display: flex;
   justify-content: stretch;
   height: 280px;
-  width: 1500px;
+  width: auto;
 }
 
 .headband_navigation {
@@ -36,10 +37,22 @@
   padding: 3px;
 }
 
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: black;
+}
+
 .headband_navigation--ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 23px;
   color: white;
   background-color: rgb(180, 68, 28);
   margin: 0;
@@ -47,6 +60,6 @@
 
 .headband_navigation--ul--li {
   padding: 20px;
-  width: 147px;
+  width: 300px;
   justify-content: center;
 }
