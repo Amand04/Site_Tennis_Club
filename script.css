@@ -19,6 +19,14 @@
   }
 }
 
+body {
+  margin: 0;
+}
+
+.header {
+  width: auto;
+}
+
 .headband_background {
   display: flex;
   justify-content: center;
@@ -27,7 +35,7 @@
 
 .header_image {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   height: 280px;
   width: auto;
 }
@@ -62,4 +70,5 @@ nav a:hover {
   padding: 20px;
   width: 300px;
   justify-content: center;
+  border-bottom: 0.2vh solid black;
 }
