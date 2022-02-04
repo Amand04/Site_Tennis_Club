@@ -29,7 +29,13 @@
     display: flex;
     justify-content: space-around;
   }
+
   .evenements_article--photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .article_title--figure {
     display: flex;
     justify-content: center;
   }
@@ -117,16 +123,11 @@ nav a:hover {
 }
 
 /*PHOTOS EQUIPE*/
+
 .article_title--figure--photo {
   max-width: 170px;
   max-height: 200px;
-  margin: 20px 120px 20px 120px;
-  padding: 10px;
-}
-
-caption {
-  display: flex;
-  justify-content: center;
+  margin-left: 100px;
 }
 
 /*EQUIPEMENTS*/
@@ -147,4 +148,18 @@ caption {
 .google_maps {
   width: 350px;
   height: 350px;
+}
+
+figure {
+  display: table;
+  margin: 3px 3px 3px 3px;
+  padding: 3px;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  justify-self: center;
+  margin-left: 100px;
+  padding-left: 48px;
 }
