@@ -128,9 +128,18 @@ nav a:hover {
 }
 
 .article_title--figure--photo--figcaption {
-  background-color: #222;
+  background-color: black;
   color: #fff;
-  font: italic smaller sans-serif;
+  font: "Overpass", sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+/*EQUIPEMENTS*/
+.equipements_court {
+  margin: 14px;
+}
+
+.equipements_court-exterieur {
+  width: 369px;
 }
