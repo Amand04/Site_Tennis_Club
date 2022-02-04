@@ -29,6 +29,10 @@
     display: flex;
     justify-content: space-around;
   }
+  .evenements_article--photo {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*BODY*/
@@ -113,26 +117,16 @@ nav a:hover {
 }
 
 /*PHOTOS EQUIPE*/
-.article_title--figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column-reverse;
-  padding: 5px;
-  max-width: 180px;
-  margin: 10px;
-}
-
 .article_title--figure--photo {
-  max-width: 190px;
-  max-height: 180px;
+  max-width: 170px;
+  max-height: 200px;
+  margin: 20px 120px 20px 120px;
+  padding: 10px;
 }
 
-.article_title--figure--photo--figcaption {
-  background-color: black;
-  color: #fff;
-  font: "Overpass", sans-serif;
-  padding: 3px;
-  text-align: center;
+caption {
+  display: flex;
+  justify-content: center;
 }
 
 /*EQUIPEMENTS*/
@@ -142,4 +136,15 @@ nav a:hover {
 
 .equipements_court-exterieur {
   width: 369px;
+}
+
+/*EVENEMENTS*/
+.evenements_article--photo {
+  margin: 70px;
+}
+
+/*CONTACTS*/
+.google_maps {
+  width: 350px;
+  height: 350px;
 }
