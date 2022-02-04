@@ -88,43 +88,7 @@ nav a:hover {
   margin: 14px;
 }
 
-.partenaires_thanks--logos--turtles {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--banana {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--saxofox {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--protectMail {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--donutTour {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--loveEgg {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
-.partenaires_thanks--logos--coffeGentleman {
+.partenaires_thanks--logos--img {
   width: 110px;
   height: 110px;
   margin: 4px;
@@ -149,44 +113,24 @@ nav a:hover {
 }
 
 /*PHOTOS EQUIPE*/
-.article_title--photo1 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
+.article_title--figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column-reverse;
+  padding: 5px;
+  max-width: 180px;
   margin: 10px;
 }
 
-.article_title--photo2 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
-  margin: 10px;
+.article_title--figure--photo {
+  max-width: 190px;
+  max-height: 180px;
 }
 
-.article_title--photo3 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
-  margin: 10px;
-}
-
-.article_title--photo4 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
-  margin: 10px;
-}
-
-.article_title--photo5 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
-  margin: 10px;
-}
-
-.article_title--photo6 {
-  width: 150px;
-  height: auto;
-  padding: 30px;
-  margin: 10px;
+.article_title--figure--photo--figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
 }
