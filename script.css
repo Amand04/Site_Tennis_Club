@@ -2,9 +2,13 @@
 
 /*RESPONSIVE*/
 @media screen and (min-width: 650px) {
+  .headband_background {
+    display: flex;
+    justify-content: center;
+  }
   .header_image {
-    height: auto;
-    width: auto;
+    width: 1500px;
+    height: 700px;
   }
 
   .headband_navigation--ul {
@@ -21,6 +25,11 @@
     justify-content: stretch;
   }
 
+  .equipements_photo {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .partenaires_thanks {
     font-size: 25px;
   }
@@ -32,12 +41,12 @@
 
   .evenements_article--photo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .article_title--figure {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -48,17 +57,16 @@ body {
 }
 
 /*HEADBAND NAVIGATION*/
+
 .headband_background {
-  display: flex;
-  justify-content: center;
   background-color: black;
+  background-size: 100vw;
+  margin: 0px;
 }
 
 .header_image {
-  display: flex;
-  justify-content: center;
+  width: 390px;
   height: 150px;
-  width: 100vw;
 }
 
 .headband_navigation {
@@ -111,15 +119,16 @@ nav a:hover {
 }
 
 .article_title {
-  color: brown;
+  color: black;
   font-family: "Overpass", sans-serif;
   font-weight: bold;
-  padding: 15px;
+  padding: 5px;
   border-bottom: solid brown;
 }
 
 .article_title--text {
   text-align: justify;
+  margin: 10px;
 }
 
 /*PHOTOS EQUIPE*/
@@ -131,15 +140,22 @@ nav a:hover {
 }
 
 /*EQUIPEMENTS*/
-.equipements_court {
-  margin: 14px;
-}
 
-.equipements_court-exterieur {
+.equipements_photo--detail {
   width: 369px;
+  margin: 5px;
 }
 
 /*EVENEMENTS*/
+.article_title--text--date {
+  list-style: none;
+  font-weight: bold;
+}
+
+.article_title--text--date--important {
+  color: orangered;
+  list-style: none;
+}
 .evenements_article--photo {
   margin: 70px;
 }
@@ -159,7 +175,6 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: top;
-  justify-self: center;
   margin-left: 100px;
   padding-left: 48px;
 }
