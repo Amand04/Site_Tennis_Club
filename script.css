@@ -1,7 +1,7 @@
 /*RESPONSIVE*/
 @media (min-width: 481px) and (max-width: 650px) {
   .headband_background {
-    background-image: url(images/Headband5.jpg);
+    background-image: url(images/headband.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -23,12 +23,15 @@
 }
 @media screen and (min-width: 650px) {
   .headband_background {
-    background-image: url(images/Headband5.jpg);
+    background-image: url(images/headband.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100px;
     height: 200px;
+  }
+  .headband-image {
+    width: 0px;
   }
   .headband_navigation--ul {
     display: flex;
@@ -66,6 +69,22 @@ body {
 }
 
 /*HEADBAND NAVIGATION*/
+.headband {
+  background-image: url(images/headband.jpg);
+  background-position: cover;
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: right;
+  background-position-y: 35px;
+  background-color: black;
+}
+.headband_image {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
 .headband_navigation--ul {
   font-size: 23px;
   color: white;
@@ -80,9 +99,15 @@ body {
 }
 
 .headband_background {
+  background-image: url(images/headband.jpg);
+  background-repeat: no-repeat;
   background-color: black;
   width: 100vw;
   /*logo a rajouter + bande noire*/
+}
+.headband_background--image {
+  width: 80px;
+  margin: 10px;
 }
 
 nav a {
