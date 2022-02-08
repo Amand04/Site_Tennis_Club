@@ -1,50 +1,37 @@
-/*SCRIPT PAGE ACCUEIL*/
-
 /*RESPONSIVE*/
+@media (min-width: 481px) and (max-width: 650px) {
+  .headband_background {
+    background-image: url(images/Headband5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 60px;
+    height: 190px;
+  }
+  .headband_navigation {
+    display: flex;
+    padding: 3px;
+  }
+}
 @media screen and (min-width: 650px) {
   .headband_background {
-    display: flex;
-    justify-content: center;
-  }
-  .header_image {
-    width: 1500px;
-    height: 700px;
-  }
-
-  .headband_navigation--ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    color: white;
-    background-color: rgb(180, 68, 28);
-    margin: 0;
+    background-image: url(images/Headband5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100px;
+    height: 200px;
   }
 
   .headband_navigation--ul--li {
-    display: flex;
-    justify-content: stretch;
+    padding: 10px;
+    border-bottom: 0.2vh solid black;
   }
-
-  .equipements_photo {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .partenaires_thanks {
-    font-size: 25px;
-  }
-
-  .partenaires_thanks--logos {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .evenements_article--photo {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .article_title--figure {
+    display: flex;
+    justify-content: space-around;
+  }
+  .partenaires_thanks--logos {
     display: flex;
     justify-content: space-around;
   }
@@ -57,21 +44,27 @@ body {
 }
 
 /*HEADBAND NAVIGATION*/
+.headband_navigation--ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 23px;
+  color: white;
+  background-color: rgb(180, 68, 28);
+  margin: 0px;
+}
+.headband_navigation--ul--li {
+  padding: 20px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2vh solid black;
+}
 
 .headband_background {
   background-color: black;
-  background-size: 100vw;
-  margin: 0px;
-}
-
-.header_image {
-  width: 390px;
-  height: 150px;
-}
-
-.headband_navigation {
-  display: flex;
-  padding: 3px;
+  width: 100vw;
+  /*logo a rajouter + bande noire*/
 }
 
 nav a {
@@ -79,39 +72,9 @@ nav a {
   text-decoration: none;
   color: white;
 }
-
 nav a:hover {
   color: black;
 }
-
-.headband_navigation--ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  font-size: 23px;
-  color: white;
-  background-color: rgb(180, 68, 28);
-  margin: 0;
-}
-
-.headband_navigation--ul--li {
-  padding: 20px;
-  width: 300px;
-  justify-content: center;
-  border-bottom: 0.2vh solid black;
-}
-
-/* SCRIPT PAGE NOS PARTENAIRES*/
-.partenaires_thanks--logos {
-  margin: 14px;
-}
-
-.partenaires_thanks--logos--img {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-
 /*REGLAGES COMMUNS ARTICLES*/
 .article {
   margin: 10px;
@@ -132,7 +95,6 @@ nav a:hover {
 }
 
 /*PHOTOS EQUIPE*/
-
 .article_title--figure--photo {
   max-width: 170px;
   max-height: 200px;
@@ -142,8 +104,8 @@ nav a:hover {
 /*EQUIPEMENTS*/
 
 .equipements_photo--detail {
-  width: 369px;
-  margin: 5px;
+  width: 330px;
+  margin: 30px;
 }
 
 /*EVENEMENTS*/
@@ -166,6 +128,16 @@ nav a:hover {
   height: 350px;
 }
 
+/* SCRIPT PAGE NOS PARTENAIRES*/
+.partenaires_thanks {
+  font-size: 25px;
+}
+
+.partenaires_thanks--logos--img {
+  width: 110px;
+  height: 110px;
+  margin: 4px;
+}
 figure {
   display: table;
   margin: 3px 3px 3px 3px;
