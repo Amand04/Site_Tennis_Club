@@ -8,9 +8,13 @@
     width: 60px;
     height: 190px;
   }
-  .headband_navigation {
+
+  .article_title--figure--photo {
+    margin-left: 0px;
+  }
+  .article_title--maps {
     display: flex;
-    padding: 3px;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 650px) {
@@ -22,18 +26,35 @@
     width: 100px;
     height: 200px;
   }
-
+  .headband_navigation--ul {
+    display: flex;
+    justify-content: center;
+  }
+  .headband_navigation--ul {
+    display: flex;
+    justify-content: center;
+  }
   .headband_navigation--ul--li {
     padding: 10px;
     border-bottom: 0.2vh solid black;
   }
-  .article_title--figure {
+  .article_title--figure--photo {
+    margin-left: 0px;
+  }
+
+  .evenements_article--photo {
     display: flex;
     justify-content: space-around;
   }
+  .article_title--maps {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 870px) {
   .partenaires_thanks--logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 
@@ -45,9 +66,6 @@ body {
 
 /*HEADBAND NAVIGATION*/
 .headband_navigation--ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   font-size: 23px;
   color: white;
   background-color: rgb(180, 68, 28);
@@ -55,9 +73,9 @@ body {
 }
 .headband_navigation--ul--li {
   padding: 20px;
-  width: 320px;
-  display: flex;
-  justify-content: center;
+  width: 260px;
+  list-style: none;
+  text-align: center;
   border-bottom: 0.2vh solid black;
 }
 
@@ -96,19 +114,25 @@ nav a:hover {
 
 /*PHOTOS EQUIPE*/
 .article_title--figure--photo {
-  max-width: 170px;
-  max-height: 200px;
-  margin-left: 100px;
+  height: auto;
+  width: 150px;
+  margin-left: 110px;
 }
 
 /*EQUIPEMENTS*/
 
 .equipements_photo--detail {
-  width: 330px;
-  margin: 30px;
+  width: 190px;
+  margin-left: 100px;
 }
 
 /*EVENEMENTS*/
+.article_title--text {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 25px;
+}
+
 .article_title--text--date {
   list-style: none;
   font-weight: bold;
@@ -119,13 +143,14 @@ nav a:hover {
   list-style: none;
 }
 .evenements_article--photo {
-  margin: 70px;
+  margin: 50px;
 }
 
 /*CONTACTS*/
 .google_maps {
   width: 350px;
   height: 350px;
+  margin: 20px;
 }
 
 /* SCRIPT PAGE NOS PARTENAIRES*/
@@ -134,19 +159,7 @@ nav a:hover {
 }
 
 .partenaires_thanks--logos--img {
-  width: 110px;
-  height: 110px;
-  margin: 4px;
-}
-figure {
-  display: table;
-  margin: 3px 3px 3px 3px;
-  padding: 3px;
-}
-
-figcaption {
-  display: table-caption;
-  caption-side: top;
-  margin-left: 100px;
-  padding-left: 48px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
