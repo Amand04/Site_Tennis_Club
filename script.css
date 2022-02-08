@@ -8,6 +8,10 @@
     width: 60px;
     height: 190px;
   }
+  .headband_navigation--ul {
+    text-align: center;
+    margin-right: 0px;
+  }
 
   .article_title--figure--photo {
     margin-left: 0px;
@@ -30,18 +34,12 @@
     display: flex;
     justify-content: center;
   }
-  .headband_navigation--ul {
-    display: flex;
-    justify-content: center;
-  }
-  .headband_navigation--ul--li {
-    padding: 10px;
-    border-bottom: 0.2vh solid black;
-  }
+  /*.headband_navigation--ul--li {
+    padding-left: 300px;
+  }*/
   .article_title--figure--photo {
     margin-left: 0px;
   }
-
   .evenements_article--photo {
     display: flex;
     justify-content: space-around;
@@ -54,7 +52,10 @@
 @media screen and (min-width: 870px) {
   .partenaires_thanks--logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+  }
+  .headband_navigation--ul {
+    justify-content: left;
   }
 }
 
@@ -73,7 +74,6 @@ body {
 }
 .headband_navigation--ul--li {
   padding: 20px;
-  width: 260px;
   list-style: none;
   text-align: center;
   border-bottom: 0.2vh solid black;
