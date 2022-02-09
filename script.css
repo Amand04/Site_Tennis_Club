@@ -1,6 +1,6 @@
 /*RESPONSIVE*/
 @media (min-width: 481px) and (max-width: 650px) {
-  .headband_background {
+  .headband__background {
     background-image: url(images/headband.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -8,20 +8,20 @@
     width: 60px;
     height: 190px;
   }
-  .headband_navigation--ul {
+  .headband__navigation--ul {
     text-align: center;
     margin-right: 0px;
   }
-  .article_title--figure--photo {
+  .article__title--figure--photo {
     margin-left: 0px;
   }
-  .article_title--maps {
+  .article__title--maps {
     display: flex;
     justify-content: center;
   }
 }
 @media screen and (min-width: 650px) {
-  .headband_background {
+  .headband__background {
     background-image: url(images/headband.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,23 +29,23 @@
     width: 100px;
     height: 200px;
   }
-  .headband_navigation--ul {
+  .headband__navigation--ul {
     display: flex;
     justify-content: center;
   }
-  .article_title--figure--photo {
+  .article__title--figure--photo {
     margin-left: 0px;
   }
-  .article_title--maps {
+  .article__title--maps {
     display: flex;
     justify-content: center;
   }
 }
 @media screen and (min-width: 870px) {
-  .headband_navigation--ul {
+  .headband__navigation--ul {
     justify-content: left;
   }
-  .partenaires_thanks {
+  .partenaires__thanks {
     display: flex;
     justify-content: space-around;
   }
@@ -56,13 +56,13 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 /*HEADBAND NAVIGATION*/
-.headband_background {
+.headband__background {
   background-image: url(images/headband.jpg);
   background-repeat: no-repeat;
   background-color: black;
   width: 100vw;
 }
-.headband_background--image {
+.headband__background--image {
   width: 80px;
   margin: 10px;
 }
@@ -76,13 +76,13 @@ body {
   background-position-y: 35px;
   background-color: black;
 }
-.headband_navigation--ul {
+.headband__navigation--ul {
   font-size: 23px;
   color: white;
   background-color: rgb(180, 68, 28);
   margin: 0px;
 }
-.headband_navigation--ul--li {
+.headband__navigation--ul--li {
   padding: 20px;
   list-style: none;
   text-align: center;
@@ -100,53 +100,60 @@ nav :hover {
   margin: 10px;
   padding: 5px;
 }
-.article_title {
+.article__title {
   color: black;
   font-family: "Overpass", sans-serif;
   font-weight: bold;
   padding: 5px;
   border-bottom: solid brown;
 }
-.article_title--text {
+.article__title--text {
   text-align: justify;
   margin: 10px;
 }
 /*PHOTOS EQUIPE*/
-.article_title--figure--photo {
+.article__title--figure--photo {
   height: auto;
   width: 150px;
   margin-left: 110px;
 }
 /*EQUIPEMENTS*/
-.equipements_photo--detail {
+.equipements__photo--detail {
   width: 190px;
   margin-left: 100px;
 }
 /*EVENEMENTS*/
-.article_title--text {
+.logo__FFT {
+  display: flex;
+  justify-content: center;
+}
+.logo__FFT--img {
+  width: 80px;
+}
+.article__title--text {
   margin-left: 0px;
   padding-left: 0px;
   margin-right: 25px;
 }
-.article_title--text--date {
+.article__title--text--date {
   list-style: none;
 }
-.article_title--text--date--important {
+.article__title--text--date--important {
   color: orangered;
   list-style: none;
 }
-.evenements_article--photo {
+.evenements__article--photo {
   width: 190px;
   margin-left: 100px;
 }
 /*NOS PARTENAIRES*/
-.partenaires_thanks--logos--img {
+.partenaires__thanks--logos--img {
   width: 100px;
   height: 100px;
   margin: 10px;
 }
 /*CONTACTS*/
-.google_maps {
+.google__maps {
   width: 350px;
   height: 350px;
   margin: 20px;
@@ -155,20 +162,20 @@ nav :hover {
 .footer {
   height: 150px;
   width: auto;
-  margin-top: 170px;
+  margin-top: 500px;
 }
-.footer_title {
+.footer__title {
   text-align: center;
 }
-.footer_logos {
+.footer__logos {
   display: flex;
   justify-content: center;
 }
-.footer_logos--reseaux {
+.footer__logos--reseaux {
   width: 50px;
   margin: 10px;
 }
-.mentions_legales {
+.mentions__legales {
   display: flex;
   justify-content: center;
 }
