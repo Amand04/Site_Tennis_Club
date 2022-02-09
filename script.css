@@ -45,11 +45,7 @@
   .headband_navigation--ul {
     justify-content: left;
   }
-  .evenements_article--photo {
-    display: flex;
-    justify-content: space-around;
-  }
-  .partenaires_thanks--logos {
+  .partenaires_thanks {
     display: flex;
     justify-content: space-around;
   }
@@ -140,7 +136,8 @@ nav :hover {
   list-style: none;
 }
 .evenements_article--photo {
-  margin: 70px;
+  width: 190px;
+  margin-left: 100px;
 }
 /*NOS PARTENAIRES*/
 .partenaires_thanks--logos--img {
@@ -153,4 +150,25 @@ nav :hover {
   width: 350px;
   height: 350px;
   margin: 20px;
+}
+/*FOOTER*/
+.footer {
+  height: 150px;
+  width: auto;
+  margin-top: 170px;
+}
+.footer_title {
+  text-align: center;
+}
+.footer_logos {
+  display: flex;
+  justify-content: center;
+}
+.footer_logos--reseaux {
+  width: 50px;
+  margin: 10px;
+}
+.mentions_legales {
+  display: flex;
+  justify-content: center;
 }
