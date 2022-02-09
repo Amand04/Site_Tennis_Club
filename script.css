@@ -12,7 +12,6 @@
     text-align: center;
     margin-right: 0px;
   }
-
   .article_title--figure--photo {
     margin-left: 0px;
   }
@@ -30,22 +29,12 @@
     width: 100px;
     height: 200px;
   }
-  .headband-image {
-    width: 0px;
-  }
   .headband_navigation--ul {
     display: flex;
     justify-content: center;
   }
-  /*.headband_navigation--ul--li {
-    padding-left: 300px;
-  }*/
   .article_title--figure--photo {
     margin-left: 0px;
-  }
-  .evenements_article--photo {
-    display: flex;
-    justify-content: space-around;
   }
   .article_title--maps {
     display: flex;
@@ -53,22 +42,34 @@
   }
 }
 @media screen and (min-width: 870px) {
+  .headband_navigation--ul {
+    justify-content: left;
+  }
+  .evenements_article--photo {
+    display: flex;
+    justify-content: space-around;
+  }
   .partenaires_thanks--logos {
     display: flex;
     justify-content: space-around;
   }
-  .headband_navigation--ul {
-    justify-content: left;
-  }
 }
-
 /*BODY*/
 body {
   margin: 0;
   font-family: "Rajdhani", sans-serif;
 }
-
 /*HEADBAND NAVIGATION*/
+.headband_background {
+  background-image: url(images/headband.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100vw;
+}
+.headband_background--image {
+  width: 80px;
+  margin: 10px;
+}
 .headband {
   background-image: url(images/headband.jpg);
   background-position: cover;
@@ -78,12 +79,6 @@ body {
   background-position-x: right;
   background-position-y: 35px;
   background-color: black;
-}
-.headband_image {
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  margin-top: 10px;
 }
 .headband_navigation--ul {
   font-size: 23px;
@@ -97,25 +92,11 @@ body {
   text-align: center;
   border-bottom: 0.2vh solid black;
 }
-
-.headband_background {
-  background-image: url(images/headband.jpg);
-  background-repeat: no-repeat;
-  background-color: black;
-  width: 100vw;
-  /*logo a rajouter + bande noire*/
-}
-.headband_background--image {
-  width: 80px;
-  margin: 10px;
-}
-
 nav a {
-  display: block;
   text-decoration: none;
   color: white;
 }
-nav a:hover {
+nav :hover {
   color: black;
 }
 /*REGLAGES COMMUNS ARTICLES*/
@@ -123,7 +104,6 @@ nav a:hover {
   margin: 10px;
   padding: 5px;
 }
-
 .article_title {
   color: black;
   font-family: "Overpass", sans-serif;
@@ -131,60 +111,46 @@ nav a:hover {
   padding: 5px;
   border-bottom: solid brown;
 }
-
 .article_title--text {
   text-align: justify;
   margin: 10px;
 }
-
 /*PHOTOS EQUIPE*/
 .article_title--figure--photo {
   height: auto;
   width: 150px;
   margin-left: 110px;
 }
-
 /*EQUIPEMENTS*/
-
 .equipements_photo--detail {
   width: 190px;
   margin-left: 100px;
 }
-
 /*EVENEMENTS*/
 .article_title--text {
   margin-left: 0px;
   padding-left: 0px;
   margin-right: 25px;
 }
-
 .article_title--text--date {
   list-style: none;
-  font-weight: bold;
 }
-
 .article_title--text--date--important {
   color: orangered;
   list-style: none;
 }
 .evenements_article--photo {
-  margin: 50px;
+  margin: 70px;
 }
-
+/*NOS PARTENAIRES*/
+.partenaires_thanks--logos--img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
 /*CONTACTS*/
 .google_maps {
   width: 350px;
   height: 350px;
   margin: 20px;
-}
-
-/* SCRIPT PAGE NOS PARTENAIRES*/
-.partenaires_thanks {
-  font-size: 25px;
-}
-
-.partenaires_thanks--logos--img {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
 }
